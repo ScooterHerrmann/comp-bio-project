@@ -1,0 +1,12 @@
+[workspace]
+authors = ["ScooterHerrmann <160758543+ScooterHerrmann@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "comp-bio-project"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.14.*"
+marimo = ">=0.25.1,<0.26"
